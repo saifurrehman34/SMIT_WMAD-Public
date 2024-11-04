@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Full Name" size="30" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email" size="30" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Password" size="30" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="art" name="hobbies" value="Art">
+        <label for="art">Art</label>
+        <input type="checkbox" id="painting" name="hobbies" value="Painting">
+        <label for="painting">Painting</label><br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select><br><br>
+
+        <label for="dob">DOB:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="photo">Upload your photo:</label><br>
+        <input type="file" id="photo" name="photo" required><br><br>
+
+        <input type="submit" value="Register"><br><br>
+
+        <a href="#">Already a user?</a>
+    </form>
+</body>
+</html>

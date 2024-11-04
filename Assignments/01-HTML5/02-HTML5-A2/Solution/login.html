@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WMAD - HTML5 Assignmet2</title>
+    <style>
+        .box {
+            width: 300px;
+            border: 1px solid black;
+            padding: 15px;
+            position: relative;
+            margin: 50px auto;
+            font-family: Arial, sans-serif;
+        }
+        .title {
+            position: absolute;
+            top: -12px;
+            left: 10px;
+            background-color: white;
+            padding: 0 5px;
+            font-weight: bold;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 7px;
+            margin-top: 10px;
+            border: 1px solid #333;
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #e0e0e0;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <table border="1" cellpadding="10" cellspacing="2" style="border-style: outset;" align="center">
+                <tr>
+                    <td align="center" width="12.5%">
+                        <a href="index.html" alt="SMIT  FSD Logo" height="30" </a>
+                            <img src="/assets/images/logo.png" alt="SMIT  FSD Logo" height="30">
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="index.html" style="text-decoration: none; color: blue; font-weight: bold;">Home</a>
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="about.html" style="text-decoration: none; color: blue; font-weight: bold;">About</a>
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="gallery.html" style="text-decoration: none; color: blue; font-weight: bold;">Gallery</a>
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="media.html" style="text-decoration: none; color: blue; font-weight: bold;">Media</a>
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="contact.html" style="text-decoration: none; color: blue; font-weight: bold;">Contact</a>
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="login.html" style="text-decoration: none; color: blue; font-weight: bold;">Login</a>
+                    </td>
+                    <td align="center" width="12.5%">
+                        <a href="register.html" style="text-decoration: none; color: blue; font-weight: bold;">Register</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+
+    </header>
+    <main>
+        <hr />
+        <h1 align="center">Login Page</h1>
+        <hr />
+        <h1 align="center">Please login to continue</h1>
+        <hr />
+       
+        
+        <div class="box">
+            <div class="title">Login</div>
+            <form>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Email" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+    
+                <input type="submit" value="Login">
+            </form>
+            <a href="register.html">Not a user?</a>
+        </div>
+  
+        <hr />
+
+    </main>
+    <footer align="center">
+        Copyright &copy; 2024 - All rights reserved.
+
+    </footer>
+</body>
+
+</html>
